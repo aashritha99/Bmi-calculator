@@ -38,9 +38,32 @@ button{
     font-family: "Barriecito", system-ui;
      font-size: large;  
 }
+button:hover{
+    background-color: #c0b0c5;
+    cursor: pointer;
+}
 label{
     font-size: large;
     font-weight: bold;
     margin-bottom: 2px;
     color: #555;
+}
+
+input[type="number"],
+select{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: large;
+    font-family: "Barriecito", system-ui;
+}
+#result{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: large;
+    font-family: "Barriecito", system-ui;
+    color: #333;
 }
